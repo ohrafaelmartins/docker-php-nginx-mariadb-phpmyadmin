@@ -1,13 +1,18 @@
 # docker-php-nginx-mariadb-phpmyadmin
-docker-php-nginx-mariadb-phpmyadmin
 
-# webserver
-[http://localhost:8200/](http://localhost:8200/)
+Este repositório contém uma configuração Docker Compose para criar um ambiente de desenvolvimento local com PHP, Nginx, MariaDB e phpMyAdmin.
 
-# phpmyadmin
-[http://localhost:8204/](http://localhost:8204/)
+## Acesso ao Servidor Web (Nginx)
 
-- MYSQL_ROOT_PASSWORD=admin
-- MYSQL_DATABASE=admin
-- MYSQL_USER=admin
-- MYSQL_PASSWORD=admin
+- **Endereço:** http://localhost:8200/
+
+## Acesso ao phpMyAdmin
+
+- **Endereço:** http://localhost:8204/
+
+## Configurações do MariaDB
+
+- **Senha do Root:** admin
+- **Banco de Dados Padrão:** admin
+- **Usuário do Banco de Dados:** admin
+- **Senha do Usuário do Banco de Dados:** admin
